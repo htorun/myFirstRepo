@@ -1,4 +1,7 @@
-# Editing this to see what will happen when I merge the FirstSetup branch
+# Temporary files (created by text editors like vim, emacs, gedit ...)
+*~
+
+### Java related files to ignore (from github/gitignore)
 *.class
 
 # Mobile Tools for Java (J2ME)
@@ -11,3 +14,30 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+### Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm (from github/gitignore)
+
+*.iml
+
+## Directory-based project format:
+.idea/
+
+## File-based project format:
+*.
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
